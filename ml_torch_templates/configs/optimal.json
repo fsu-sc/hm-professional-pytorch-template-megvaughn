@@ -1,0 +1,17 @@
+{
+    "model": {
+        "hidden_layers": 2,
+        "neurons_per_layer": 20,
+        "activation_hidden": "relu",
+        "activation_output": "linear"
+    },
+    "training": {
+        "epochs": 500,
+        "batch_size": 32,
+        "learning_rate": 0.01
+    },
+    "dataset": {
+        "function": "quadratic",
+        "n_samples": 500
+    }
+}
